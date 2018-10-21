@@ -15,8 +15,12 @@ El formato, el tamaño, el sector de inicio, si es arrancable o no y en caso del
 
 -Encontrar el sector inicial de la partición activa
 
+-Encontrar el sector de arranque de la partición activa con uso de la firma de disco
+
 -Cargar una copia del sector de arranque (donde se contiene el gestor de arranque) en la memoria RAM
 
 -Transferir el control al sector de arranque que acaba de copiar en la memoria RAM
 
 **-Firma de disco:**
+
+*Cuya función es marcar la posición del sector de arranque*
