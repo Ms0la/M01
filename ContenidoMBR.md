@@ -24,3 +24,5 @@ El formato, el tamaño, el sector de inicio, si es arrancable o no y en caso del
 **-Firma de disco:**
 
 *Cuya función es marcar la posición del sector de arranque*
+
+**Así que se puede afirmar que la firma de disco y la tabla de particiones contienen información y el master boot code se encarga de usar esa información para arrancar el sistema operativo**
