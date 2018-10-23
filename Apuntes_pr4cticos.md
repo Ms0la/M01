@@ -6,9 +6,9 @@ Primero identificamos las bahías laterales de la motherboard y luego desatornil
 
 **Configuración y uso del tester:**
 
-El tester es un aparato usado para comprovar y obtener datos sobre un circuito electrónico. Para configurarlo para comprovar un PC debemos identificar en el tester los simbolos de corriente alterna y continua y lo preparamos para evaluar la continuidad. Una vez hecho, toca comprovar que funcione: Para ello probamos el tester en la prueba de continuidad tocando con sus puntas metálicas el ventilador y las placas de metal, si pita o responde, es que el tester funciona correctamente.
+El tester es un aparato usado para comprovar y obtener datos sobre un circuito electrónico. Para configurarlo para comprovar un PC debemos identificar en el tester los simbolos de corriente alterna (AC) y continua (DC) y lo preparamos para evaluar la continuidad. Una vez hecho, toca comprovar que funcione: Para ello probamos el tester en la prueba de continuidad tocando con sus puntas metálicas el ventilador y las placas de metal, si pita o responde, es que el tester funciona correctamente.
 
-Para usarlo esta vez ha sido elegido el botón de encendido, para probarlo buscamos en el manual de la placa la configuración del botón de encendido y identificamos el cable, lo probamos, y si no funciona simplemente agregamos el botón de reiniciar.
+Para usarlo esta vez ha sido elegido el botón de encendido, para probarlo buscamos en el manual de la placa la configuración del botón de encendido y identificamos el cable, lo probamos, y si el botón deja de funcionar simplemente agregamos el botón de reiniciar.
 
 **Retiro y aplicación de la pasta térmica:**
 
