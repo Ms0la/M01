@@ -10,6 +10,8 @@ El tester es un aparato usado para comprovar y obtener datos sobre un circuito e
 
 Para usarlo esta vez ha sido elegido el botón de encendido, para probarlo buscamos en el manual de la placa la configuración del botón de encendido y identificamos el cable, lo probamos, y si el botón deja de funcionar simplemente agregamos el botón de reiniciar.
 
+Simbolo corriente alterna <img src="http://2.bp.blogspot.com/-pRDG0iGCDgs/UTOqzzT9BnI/AAAAAAAAAHA/sEljuJfTmMU/s1600/descarga+(7).jpg"
+
 **Retiro y aplicación de la pasta térmica:**
 
 La patsa térmica es una pasta aplicadasobre el processador cuya función es distribuir bien el calor en la superfície aplicada (mediante la conducción el propio) para facilitar al discipador la tarea de eliminar dicho calor. El problema con dicha pasta es que a veces se endurece y deja de hacer bien su función o directamente está mal aplicada por loos fabricaantes así que toca queitarla y cambiarla. El primer paso para cambiarla es retirar el discipador que hay encima de la CPU cuidadosamente, para obtener así acceso a la parte del processador recubierta por la pasta. Lo ideal para quitar la pasta térmica de la CPU es usando uno de los plásticos duros de los paquetes o una targeta, después se agrega bien esparcida y compensada una capa nueva y así puedes incluso hacer que el procesador se caliente menos de lo hacía antes de manera normal.
