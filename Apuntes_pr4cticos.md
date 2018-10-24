@@ -10,9 +10,13 @@ El tester es un aparato usado para comprovar y obtener datos sobre un circuito e
 
 Para usarlo esta vez ha sido elegido el botón de encendido, para probarlo buscamos en el manual de la placa la configuración del botón de encendido y identificamos el cable, lo probamos, y si el botón deja de funcionar simplemente agregamos el botón de reiniciar.
 
-Simbolo corriente alterna 
+Simbolo corriente alterna: 
 
 <img src="http://2.bp.blogspot.com/-pRDG0iGCDgs/UTOqzzT9BnI/AAAAAAAAAHA/sEljuJfTmMU/s1600/descarga+(7).jpg">
+
+Simbolo corriente continua:
+
+<img src="https://files2.soniccdn.com/files/2016/11/02/Electrical-Symbol-Labels-On-A-Roll-94791-ba-275x275.gif">
 
 **Retiro y aplicación de la pasta térmica:**
 
