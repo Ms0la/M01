@@ -8,4 +8,6 @@ La interfaz gráfica es el entorno interactivo que es mayoritariamente usado par
 
 ### ¿Y el entorno de escritorio?
 
-Un entorno de escritorio es un conjunto de software preinstalado junto con una GUI
+Un entorno de escritorio es un conjunto de software hecho con la finalidad de ofrcer una interacción entre el usuario y el sistema operativo. En dicho software, se incluye la GUI.
+
+Lo interesante de esto, es que para el sistema operativo GNU/Linux hay varios entornos de escritorios desarollados, de tal manera que tienes la opción de elegir el entorno que mas se acomode a us nescesidades; ya que hay entornos desarollados para hacer un consumo reducido del Harware y a su vez, hay entornos creados con la finalidad de tener una estética bella. Ejem
