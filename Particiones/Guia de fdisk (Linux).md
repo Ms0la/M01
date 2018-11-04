@@ -4,9 +4,13 @@ Para usar fdsik en linux (suponiendo que lo tengamos instalado) debemos ejecutar
 
 ##### Crear una partición
 
-
 Lo primero que haremos sera hacer un **fdisk -l** para ver las particiones que hay en el disco y saber de cuanto espacio disponemos, que nunca biene mal. Hecho esto, ejecutaremos **fdisk /dev/sda** para abrir el disco duro donde queremos ubicar la partición. 
 
-Tras estos, se nos abrirá el disco y nos pedirá una orden, admeás nos dirá que ejecutemos la orden m si nescessitamos ayuda. En vez de eso, ejecutaremos la orden n para añadir una nueva partición. En caso de que la vayamos a crear con un disco MBR, nos dirá si queremos crear una primaria normal (p) o una partición primaria extendida (e), seleccionaremos la primaria normal. 
+Tras estos, se nos abrirá el disco y nos pedirá una orden, admeás nos dirá que ejecutemos la orden **m** si nescessitamos ayuda. En vez de eso, ejecutaremos la orden **n** para añadir una nueva partición. En caso de que la vayamos a crear con un disco MBR, nos dirá si queremos crear una primaria normal (**p**) o una partición primaria extendida (**e**), seleccionaremos la primaria normal. 
 
-Nos pedirá el número de la partición y lo dejaremos en el número predeterminado, luego nos pedirá el primer y último cilindro y escribiremos allí el tamaño que queremos para la partición (Ej: 10K). Ahora volveremos al menú de fdisk y escribiremos w para guardar los cambios. Finalmente, escribiremos en la terminal **partprobe** para que se vuelva a leer la tabla de particiones y ejecutaremos **fdisk -l** para ver si la nueva partición està allí.
+Nos pedirá el número de la partición y lo dejaremos en el número predeterminado, luego nos pedirá el primer y último cilindro y escribiremos allí el tamaño que queremos para la partición (Ej: 10K). Ahora volveremos al menú de fdisk y escribiremos **w** para guardar los cambios. Finalmente, escribiremos en la terminal **partprobe** para que se vuelva a leer la tabla de particiones y ejecutaremos **fdisk -l** para ver si la nueva partición està allí.
+
+##### Cambiar el sistema de partición de una unidad de memoria a GPT
+
+Para cambiar el sistema de partición de un disco a gpt con fdisk, abriremos el disco con fdisk y ejecutaremos la orden **g** y después la orden **w**.
+
