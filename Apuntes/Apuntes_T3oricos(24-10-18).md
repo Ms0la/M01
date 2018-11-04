@@ -1,4 +1,4 @@
-##Apuntes teóricos (ampliados) 24/11/18
+##Apuntes teóricos (ampliados) 24/10/18
 
 **FAT32**
 
