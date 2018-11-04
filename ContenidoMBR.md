@@ -1,26 +1,18 @@
 ## Contenido MBR
 El sistema de particiones MBR contiene:
 
-**-Tabla de particiones:** 
+**-Tabla de particiones (64 bytes):** 
 
-*Contiene información sobre la partición/disco*: 
+*Contiene información sobre el disco*: 
 
-El formato, el tamaño, el sector de inicio, si es arrancable o no y en caso del disco, sobre las particiones
+El contiene información sobre las particiones de la unidad de memoria, sobre su formato, ubicación en el disco, el tipo de partición que es y sobre su tamaño.
 
-**-Master Boot Code:**
+**-Gestor de arranque (446 bytes):**
 
-*Cuyas funciones son*:
+*Es una parte del gestor de arranque instalada en MBR que se encarga de copiar el resto del gestor de arranque en la memoria RAM y de cederle el control a dicha copia*:
 
--Escanear la tabla de particiones para hallar la partición activa
+**-Firma de disco(2 bytes):**
 
--Encontrar el sector inicial de la partición activa
+*Se encarga de identificar la unidad para diferenciarla de otras*
 
--Cargar una copia del sector de arranque (donde se contiene el gestor de arranque) en la memoria RAM
-
--Transferir el control al sector de arranque que acaba de copiar en la memoria RAM
-
-**-Firma de disco:**
-
-*Cuya función es marcar el disco para poder distingirlo de otros instalados*
-
-**Así que se puede afirmar que la firma de disco y la tabla de particiones contienen información y el master boot code se encarga de usar esa información para arrancar el sistema operativo**
+**Así que se puede afirmar que la firma de disco y la tabla de particiones son archivos con información y el gestor de arranque es un software que se sirve de dichos para arrancar el sistema operativo**
