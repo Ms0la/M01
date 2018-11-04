@@ -1,5 +1,3 @@
-##Apuntes teóricos (ampliados) 24/10/18
-
 **FAT32**
 
 La ventaja que tiene FAT32 frente a otros formatos de almacenamiento es su alta compatibilidad derivada del tiempo que lleva en uso, ya que fue inventado en 1995 
