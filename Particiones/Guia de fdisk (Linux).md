@@ -2,7 +2,7 @@
 
 Para usar fdsik en linux (suponiendo que lo tengamos instalado) debemos ejecutarlo con permisos root, como es possible que lo abramos varias veces, lo mas recomendable es loggearte como root (**su - o sudo su**), ya que es mas rápido que escribir todo el rato **sudo fdisk**.
 
-###### Crear una partición
+##### Crear una partición
 
 
 Lo primero que haremos sera hacer un **fdisk -l** para ver las particiones que hay en el disco y saber de cuanto espacio disponemos, que nunca biene mal. Hecho esto, ejecutaremos **fdisk /dev/sda** para abrir el disco duro donde queremos ubicar la partición. 
