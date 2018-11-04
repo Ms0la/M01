@@ -13,8 +13,11 @@ Una vez lo tenemos abierto, es tan fácil como escribir al final del archivo y s
 
 Hecho esto, guardamos el archivo y reiniciamos el Openbox para poder visualizar el panel al fondo de todo. Ahora ya solo queda el paso opcional de añadirle un fondo de pantalla, para ello, buscamos la imagen que queramos y la descargamos. Hecho esto, ejecutamos los siguientes comandos (desde Openbox):
 >**sudo apt-get install nitrogen**
+
 >**mkdir /home/(nombre de usuario)/wallpaper**
+
 >**cp /home/(nombre de usuario)/Descargas/(nombre de imagen + extensión) ~/.home/(nombre de usuario)/wallpaper**
+
 >**nitrogen ~/wallpaper**
 
 Y lo configuramos como queremos, para que se abra automáticamente al abrir el Openbox, haremos lo siguiente:
