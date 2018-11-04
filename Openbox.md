@@ -28,7 +28,7 @@ Así abriremos el archivo, y ya solo restará pegarle al final de este:
 
 Y ya tendremos el Openbox configurado de forma básica.
 
-<img src="">
+<img src="https://drive.google.com/file/d/1Zkata-JwUkwVzIrB5gnoNS0OQ81wNkvr/view?usp=sharing">
 
 
 
