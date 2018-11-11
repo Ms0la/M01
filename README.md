@@ -3,9 +3,9 @@
 
 Linux (Carpeta)
 > Openbox (Carpeta)
->> IMG_20181104_181445.jpg
+>> **IMG_20181104_181445.jpg**
 
->> Openbox.md
+>> **Openbox.md**
 > Arquitectura onion.md
 
 > Como cambiar la contraseña de root sin saberla.md
@@ -23,11 +23,11 @@ Linux (Carpeta)
 > Watch.md
 
 > Particiones (Carpeta)
->> Contenido MBR.md
+>> **Contenido MBR.md**
 
->> Guia de fdisk.md
+>> **Guia de fdisk.md**
 
->> Reglas de MBR DOS.md
+>> **Reglas de MBR DOS.md**
 
 Detectar HW.md
 
