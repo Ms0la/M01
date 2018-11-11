@@ -6,6 +6,7 @@ Linux (Carpeta)
 >> **IMG_20181104_181445.jpg**
 
 >> **Openbox.md**
+
 > Arquitectura onion.md
 
 > Como cambiar la contraseña de root sin saberla.md
