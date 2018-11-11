@@ -1,6 +1,7 @@
 # M01
-*Aquest és el projecte de Gitlab que he creat per al* **Módul 01**
+*Aquest és el índex del repositori creat per al* **Módul 01**
 
-Esto es un párrafo perfectamente normal donde pruebo a hacer citas con markdown
->"Me gusta ~~**TU**~~ petróleo"
->> Tito sam dialogando en Irak
+Linux (Carpeta)
+> Openbox (Carpeta)
+>> IMG_20181104_181445.jpg
+>> Openbox.md
