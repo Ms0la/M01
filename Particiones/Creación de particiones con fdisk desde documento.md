@@ -12,3 +12,15 @@ Donde losetup configura la lectura del disco y, de las opciones **/dev/loop0** s
 
 ### Particiones del disco con fdisk
 
+Ahora abriremos el disco virtual con fdisk:
+>fdisk /dev/loop0
+
+Y procederemos a particionarlo según nuestras nescesidades, para ello haremos uso de las opciones de fdisk que podremos ver con **m**. Por ejemplo, yo quiero particionar el archivo de tal manera que haya una primaria activa de 100K, una primaria NTFS de 70M y una extended de 205M dentro de la cual habrán dos particiones ext4 de 100M y una swap de 5M. Para ello seguiré el siguiente patrón:
+
+> :n
+ :p
+ :1
+ :
+ :+100M
+
+
