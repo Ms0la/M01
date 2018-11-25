@@ -32,6 +32,8 @@ Linux (Carpeta)
 
 >> **Partprobe.md**
 
+>> **Diferencia ente partición y formato.md**
+
 Detectar HW.md
 
 FAT32 y tipos de procesadores (32 y 64 bits).md
