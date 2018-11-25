@@ -15,12 +15,28 @@ Donde losetup configura la lectura del disco y, de las opciones **/dev/loop0** s
 Ahora abriremos el disco virtual con fdisk:
 >fdisk /dev/loop0
 
-Y procederemos a particionarlo según nuestras nescesidades, para ello haremos uso de las opciones de fdisk que podremos ver con **m**. Por ejemplo, yo quiero particionar el archivo de tal manera que haya una primaria activa de 100K, una primaria NTFS de 70M y una extended de 205M dentro de la cual habrán dos particiones ext4 de 100M y una swap de 5M. Para ello seguiré el siguiente patrón:
+Y procederemos a particionarlo según nuestras nescesidades, para ello haremos uso de las opciones de fdisk que podremos ver con **m**. Por ejemplo, yo quiero particionar el archivo con las reglas de MBR y de tal manera que haya una primaria activa de 100Kib, una primaria NTFS de 70Mib y una extended de 205Mib dentro de la cual habrán dos particiones ext4 de 100Mib y una swap de 5Mib. Para ello seguiré el siguiente patrón:
 
-> :n
- :p
- :1
- :
- :+100M
+Para la creación de la tabla de MBR:
+> :o :w sudo partprobe /dev/loop0 sudo fdisk /dev/loop0
+
+Para la creación de la primaria activa:
+> :n :p :1 : :+100K :a
+
+Para la creación de la primaria de 70Mib:
+> :n :p :2 : :+70M
+
+Para la creación de la primaria extended:
+> :n :e :3 : :+205M
+
+Para la creación de las lógicas:
+> :n :l :5 : :+100M
+
+> :n :l :6 : :+100M
+
+Y para la creación de la swap:
+> :n :l :7 : : :t :7 :82
+
+
 
 
