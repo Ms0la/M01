@@ -30,6 +30,8 @@ Linux (Carpeta)
 
 >> **Reglas de MBR DOS.md**
 
+>> **Partprobe.md**
+
 Detectar HW.md
 
 FAT32 y tipos de procesadores (32 y 64 bits).md
